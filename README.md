@@ -365,21 +365,9 @@ $ make run
 $ make clean
 ```
 
-### 补充 1
+### 补充
 
 CMake 是代码，应该格式化，格式化工具：<https://github.com/cheshirekow/cmake_format>。
-
-### 补充 2
-
-糜老师要求补充：Linux 内核是可以修改并替换的，只需要下载内核源码，然后：
-
-```shell
-$ make defconfig # 有各种 xxxconfig
-$ make menuconfig # TUI 界面修改 config
-$ make # 构建 Linux 内核
-$ make modules_install # 安装内核模块
-$ make install # 安装内核
-```
 
 ## 直播时的 Q&A
 
